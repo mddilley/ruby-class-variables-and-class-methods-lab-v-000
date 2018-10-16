@@ -11,8 +11,7 @@ class Song
     @@count += 1
   end
 
-  def count
-    binding.pry
+  def self.count
     @@count
   end
 
