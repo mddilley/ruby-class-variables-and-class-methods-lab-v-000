@@ -31,7 +31,7 @@ class Song
     genre_count = {}
     self.genres.each do |genre|
       binding.pry
-      genre_count[genre] = ([genre_count[genre] == nil ? 1 : genre_count[genre] += 1])  
+      genre_count[genre] = ([genre_count[genre] == nil ? 1 : genre_count[genre] += 1])
     end
     genre_count
   end
